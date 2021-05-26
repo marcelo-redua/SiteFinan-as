@@ -27,6 +27,11 @@ body {
   font-size: 15px;
 }
 
+.topnav .active{
+  text-decoration: underline;
+  text-underline-position: below 10px;
+}
+
 .topnav a:hover {
   color: #808080;
 }
@@ -37,4 +42,16 @@ body {
     height: 250px;
     background-color: #141414;
     color: white;
+  }
+
+  #back-to-top {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #b3b3b3;
+    border-radius: 50%;
+    color: white;
+    border: none;
   }
